@@ -4,8 +4,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % function [x,f,info] = IMATRS(fun,x,low,upp,st,tune);
 %
-% solve unconstrained noisy black box optimization problem 
-%    min f(x) 
+% solve integer bound constrained noisy black box optimization problem 
+%    min f(x) st. low <= x <= upp
 %  
 % fun      % function handle for f(.)
 % x        % starting point (must be specified)
